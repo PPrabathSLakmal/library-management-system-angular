@@ -1,4 +1,15 @@
+<app-nav></app-nav>
+<div class="d-flex flex-column align-items-center">
+  <h1  class="fs-2 fw-bold text-info-emphasis">Library Members</h1>
+  <div class="d-flex justify-content-end w-100 p-5 pt-0">
+    <button class="btn btn-primary" (click)="newMember()">New Member</button>
+  </div>
+  <section class="w-75">
+    <app-new-member class="{{visible}} "></app-new-member>
+    <app-member-list class="{{invisible}}"></app-member-list>
+  </section>
 
+</div>
 
 
 

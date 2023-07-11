@@ -15,6 +15,8 @@ import { MatListModule } from '@angular/material/list';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './view/home/home.component';
 import {RouterModule, Routes} from "@angular/router";
+import { NewMemberComponent } from './view/member-manage/new-member/new-member.component';
+import { MemberListComponent } from './view/member-manage/member-list/member-list.component';
 
 const routes:Routes=[
   {
@@ -43,7 +45,9 @@ const routes:Routes=[
     BookServiceComponent,
     LibraryManagementSystemComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    NewMemberComponent,
+    MemberListComponent
   ],
   imports: [
     BrowserModule,

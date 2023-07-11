@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class MemberManageComponent {
 
+  public invisible: any='visible';
+  public visible:any = 'd-none';
+
+  newMember() {
+    this.visible = 'visible';
+    this.invisible = 'd-none'
+  }
 }
