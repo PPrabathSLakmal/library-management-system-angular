@@ -17,6 +17,8 @@ import { HomeComponent } from './view/home/home.component';
 import {RouterModule, Routes} from "@angular/router";
 import { NewMemberComponent } from './view/member-manage/new-member/new-member.component';
 import { MemberListComponent } from './view/member-manage/member-list/member-list.component';
+import { BookListComponent } from './view/book-manage/book-list/book-list.component';
+import { NewBookComponent } from './view/book-manage/new-book/new-book.component';
 
 const routes:Routes=[
   {
@@ -47,7 +49,9 @@ const routes:Routes=[
     NavComponent,
     HomeComponent,
     NewMemberComponent,
-    MemberListComponent
+    MemberListComponent,
+    BookListComponent,
+    NewBookComponent
   ],
   imports: [
     BrowserModule,

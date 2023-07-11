@@ -10,6 +10,6 @@ export class NewMemberComponent {
 
 
   newMember() {
-    this.newMemberHide='d-non'
+    this.newMemberHide='d-none'
   }
 }

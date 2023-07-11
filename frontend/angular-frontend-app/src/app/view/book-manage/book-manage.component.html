@@ -1,4 +1,13 @@
 <app-nav ></app-nav>
-<div class="position-sticky" id="main-container">
+<div class="d-flex flex-column align-items-center">
+  <h1  class="fs-2 fw-bold text-info-emphasis">Manage Books</h1>
+  <div class="d-flex justify-content-end w-100 p-5 pt-0">
+    <button class="btn btn-primary" (click)="newBook()">Add Book</button>
+  </div>
+  <section class="w-75">
+    <app-new-book class="{{visible}} "></app-new-book>
+    <app-book-list class="{{invisible}}"></app-book-list>
+  </section>
 
 </div>
+
