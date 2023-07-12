@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acc922f7-5931-4eee-a51f-7ed3d68991fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/service-controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/BookMember.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Member.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/book-controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/book-controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/member-controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/member-controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +83,7 @@
       <updated>1689170507841</updated>
       <workItem from="1689170509568" duration="77000" />
       <workItem from="1689170666446" duration="296000" />
-      <workItem from="1689170990560" duration="10805000" />
+      <workItem from="1689170990560" duration="12456000" />
     </task>
     <servers />
   </component>
