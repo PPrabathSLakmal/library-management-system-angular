@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b13520a-7296-429e-9b26-443ad128b1b5" name="Changes" comment="" />
+    <list default="true" id="8b13520a-7296-429e-9b26-443ad128b1b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/.idea/dataSources/cc903c5b-01a1-4de7-8ce6-242e795b2642.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/.idea/dataSources/cc903c5b-01a1-4de7-8ce6-242e795b2642/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/.idea/dataSources/cc903c5b-01a1-4de7-8ce6-242e795b2642/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/.idea/dataSources/cc903c5b-01a1-4de7-8ce6-242e795b2642/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/.idea/dataSources/cc903c5b-01a1-4de7-8ce6-242e795b2642/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/dist/api/book-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/dist/api/member-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/src/api/book-controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/src/api/member-controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/src/util/Book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-nodejs/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "feat/2/backend-node-app",
@@ -32,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689150512236</updated>
       <workItem from="1689150513907" duration="7000" />
+      <workItem from="1689170428597" duration="63000" />
     </task>
     <servers />
   </component>

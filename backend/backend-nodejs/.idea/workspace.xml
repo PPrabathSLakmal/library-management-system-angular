@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acc922f7-5931-4eee-a51f-7ed3d68991fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/util/Member.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/api/service-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/util/BookMember.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/util/Member.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/member-controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/member-controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/api/book-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/api/book-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/api/member-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/api/member-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +86,7 @@
       <updated>1689170507841</updated>
       <workItem from="1689170509568" duration="77000" />
       <workItem from="1689170666446" duration="296000" />
-      <workItem from="1689170990560" duration="12456000" />
+      <workItem from="1689170990560" duration="13448000" />
     </task>
     <servers />
   </component>

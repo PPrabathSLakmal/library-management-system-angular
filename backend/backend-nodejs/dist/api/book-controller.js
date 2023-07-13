@@ -29,20 +29,22 @@ let pool;
         });
     });
 })();
-exports.router.get('/books', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+exports.router.get('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const books = yield pool.query("SELECT * FROM book");
     res.json(books);
 }));
-exports.router.post('/books', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+exports.router.post('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const book = req.body;
-    console.log(book);
     const result = yield pool.query("INSERT INTO book (isbn,title,author) VALUES (?,?,?)", [book.isbn, book.title, book.author]);
     book.availability = 'available';
     res.status(201).json(book);
 }));
-exports.router.patch('/books/:isbn', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+exports.router.patch('/:isbn', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const book = req.body;
-    console.log(book);
     const result = yield pool.query("UPDATE book SET title=?, author=?, availability=? WHERE isbn=?", [book.title, book.author, book.availability, req.params.isbn]);
+    res.sendStatus(result.affectedRows ? 204 : 404);
+}));
+exports.router.delete('/:isbn', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const result = yield pool.query("DELETE FROM book WHERE isbm=?", [req.params.isbn]);
     res.sendStatus(result.affectedRows ? 204 : 404);
 }));
