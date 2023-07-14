@@ -19,6 +19,7 @@ let pool:Pool;
 router2.get('/',async (req, res)=>{
     const members = await pool.query("SELECT * FROM member");
     res.json(members);
+    console.log(members)
 });
 
 router2.post('/',async (req,res)=>{

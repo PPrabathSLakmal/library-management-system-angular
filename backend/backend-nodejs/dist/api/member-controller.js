@@ -32,6 +32,7 @@ let pool;
 exports.router2.get('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const members = yield pool.query("SELECT * FROM member");
     res.json(members);
+    console.log(members);
 }));
 exports.router2.post('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const member = req.body;
