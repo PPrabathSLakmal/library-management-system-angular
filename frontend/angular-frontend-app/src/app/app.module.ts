@@ -19,6 +19,8 @@ import { NewMemberComponent } from './view/member-manage/new-member/new-member.c
 import { MemberListComponent } from './view/member-manage/member-list/member-list.component';
 import { BookListComponent } from './view/book-manage/book-list/book-list.component';
 import { NewBookComponent } from './view/book-manage/new-book/new-book.component';
+import {CommonModule} from "@angular/common";
+import {HttpClientModule} from "@angular/common/http";
 
 const routes:Routes=[
   {
@@ -61,6 +63,8 @@ const routes:Routes=[
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    CommonModule,
+    HttpClientModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],

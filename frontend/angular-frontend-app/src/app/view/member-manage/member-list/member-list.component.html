@@ -8,11 +8,11 @@
   </tr>
   </thead>
   <tbody>
-  <tr>
-    <td>M001</td>
-    <td>Kasun Sampath</td>
-    <td>077-8985648</td>
-    <td>Galle</td>
+  <tr *ngFor="let i of memberList">
+    <td>{{i.id}}</td>
+    <td>{{i.name}}</td>
+    <td>{{i.contact}}</td>
+    <td>{{i.address}}</td>
     <td>
           <span class="material-icons align-middle p-1">
           delete
