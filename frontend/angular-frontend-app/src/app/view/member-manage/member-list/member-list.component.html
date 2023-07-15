@@ -14,12 +14,13 @@
     <td>{{i.contact}}</td>
     <td>{{i.address}}</td>
     <td>
-          <span class="material-icons align-middle p-1">
+          <span class="material-icons align-middle p-1" (click)="deleteMember(i.id)">
           delete
           </span>
-      <span class="material-icons align-middle p-1">
+          <span class="material-icons align-middle p-1">
           edit
           </span>
+
     </td>
 
   </tr>
