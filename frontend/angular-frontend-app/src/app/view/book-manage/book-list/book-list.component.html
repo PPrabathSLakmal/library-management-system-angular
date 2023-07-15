@@ -7,12 +7,12 @@
   </tr>
   </thead>
   <tbody>
-  <tr>
-    <td>B001</td>
-    <td>Harry Potter</td>
-    <td>J.K. Rowlin</td>
+  <tr *ngFor="let book of bookList">
+    <td>{{book.isbn}}</td>
+    <td>{{book.title}}</td>
+    <td>{{book.author}}</td>
     <td>
-          <span class="material-icons align-middle p-1">
+          <span class="material-icons align-middle p-1" (click)="deleteBook(book.isbn)">
           delete
           </span>
       <span class="material-icons align-middle p-1">

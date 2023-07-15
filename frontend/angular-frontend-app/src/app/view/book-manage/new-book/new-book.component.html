@@ -3,23 +3,23 @@
     <div class="col-md-12 d-flex flex-column align-items-center gap-2">
       <h1 >Add New Book</h1>
       <label for="txtName" class="form-label">ISBN</label>
-      <input type="text" class="form-control text-center" id="txtName" placeholder="Eg: B001" required>
+      <input #isbn type="text" class="form-control text-center" id="txtName" placeholder="Eg: B001" required>
       <div class="valid-feedback">
         Looks good!
       </div>
-      <label for="txtContact" class="form-label">Book Title</label>
-      <input type="text" class="form-control text-center" id="txtContact" placeholder="Eg: Harry Potter" required>
+      <label for="txtTitle" class="form-label">Book Title</label>
+      <input #title type="text" class="form-control text-center" id="txtTitle" placeholder="Eg: Harry Potter" required>
       <div class="valid-feedback">
         Looks good!
       </div>
-      <label for="txtAddress" class="form-label">Author</label>
-      <input type="text" class="form-control text-center" id="txtAddress" placeholder="Eg: J.K. Rowlin" required>
+      <label for="txtAuthor" class="form-label">Author</label>
+      <input #author type="text" class="form-control text-center" id="txtAuthor" placeholder="Eg: J.K. Rowlin" required>
       <div class="valid-feedback">
         Looks good!
       </div>
     </div>
     <div class="col-12 d-flex justify-content-center gap-2">
-      <button class="btn btn-primary {{newBookHide}}" type="submit" (click)="newBook()">SAVE</button>
+      <button class="btn btn-primary {{newBookHide}}" type="submit" (click)="newBook(isbn,title,author)">SAVE</button>
       <button class="btn btn-warning" type="reset">CLEAR</button>
     </div>
   </form>
